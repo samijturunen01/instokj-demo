@@ -98,6 +98,14 @@ trademarks) are not used. Stock: Pexels licence, labelled "Kuvituskuva". Details
 
 GitHub Actions (`.github/workflows/deploy.yml`): lint → build → Playwright → upload `dist` → deploy Pages.
 
+- **Deployed and verified 24.11.2026:** CI run passed (111 tests on Linux) and deployed. The full suite was then run
+  against the live site (`LIVE_URL=https://samijturunen01.github.io npm test`): **111 passed, 3 skipped**. Direct nested
+  URLs return 200, unknown URLs the branded 404 with status 404.
+- Live lab performance (same throttling, GitHub Pages compression): mobile LCP 1.4–1.7 s, desktop 1.1–1.5 s,
+  CLS ≤ 0.005 (home, laboratorio, hinnasto, yhteystiedot). Lab data, not real-user data.
+- Note: GitHub warns that the pinned actions target Node 20 (forced to Node 24 by the runner); bump action versions
+  when convenient.
+
 ## Next recommended action
 
 Present the demo; collect answers to CONTENT_SOURCES.md open questions and authentic photos (portrait, lab machine).

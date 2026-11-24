@@ -191,7 +191,7 @@ export function ServicePage({ id }: { id: string }) {
       <section className="py-16 sm:py-20" aria-labelledby="palvelu-ukk-title">
         <div className="wrap grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-4">
-            <SectionHead letter={L} sheet="04" kicker="Usein kysyttyä" id="palvelu-ukk-title" title={`Kysyttyä: ${s.label.toLowerCase()}`} />
+            <SectionHead letter={L} sheet="04" kicker={`Usein kysyttyä · ${s.label}`} id="palvelu-ukk-title" title="Ennen kuin tilaat" />
           </div>
           <div className="lg:col-span-8" data-reveal>
             <Faq items={s.faq} />
