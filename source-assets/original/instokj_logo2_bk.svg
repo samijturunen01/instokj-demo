@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="912.875"
+   height="912.875"
+   overflow="hidden"
+   version="1.1"
+   id="svg7398"
+   sodipodi:docname="instokj_logo2_bk.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   inkscape:export-filename="/Users/jet/Project/git/instokj/logo/instokj_logo2_bk.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7400"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.69476744"
+     inkscape:cx="328.16736"
+     inkscape:cy="524.63598"
+     inkscape:window-width="1312"
+     inkscape:window-height="939"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs7374">
+    <clipPath
+       id="clip0">
+      <rect
+         x="527"
+         y="155"
+         width="916"
+         height="1032"
+         id="rect7371" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     transform="translate(-1.0625,-5.0625)">
+    <path
+       id="path7392"
+       d="m 455.29492,197.79492 -265.5,265.5 32.41016,32.41016 74.78906,-74.78906 h 48.08984 v 195.44336 l 45.83204,45.83203 V 420.91602 H 573.08398 V 619.5 c 0,61.53083 -28.58333,116.18702 -73.24804,151.60938 l 32.40429,32.40429 C 584.58449,760.02513 618.14484,694.781 618.85547,621.84961 h 0.0606 V 375 h -45.83204 v 0.084 H 342.82617 L 487.70508,230.20508 Z"
+       sodipodi:nodetypes="cccccccccscccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     transform="translate(-1.0625,-5.0625)">
+    <path
+       id="path7382"
+       style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-width:0.992708;stroke-miterlimit:8;-inkscape-stroke:none"
+       d="M 457.5,5.0625 C 205.45749,5.0625 1.0625,209.45749 1.0625,461.5 1.0625,713.54251 205.45749,917.9375 457.5,917.9375 709.54747,917.9375 913.9375,713.54246 913.9375,461.5 913.9375,209.45754 709.54747,5.0625 457.5,5.0625 Z m 0,6.875 c 248.33203,0 449.5625,201.23547 449.5625,449.5625 0,54.31067 -9.62537,106.36937 -27.26367,154.5625 H 348.88867 L 36.492188,303.66406 C 100.39936,133.23711 264.72773,11.9375 457.5,11.9375 Z M 33.916016,310.74414 339.23633,616.0625 H 35.203125 C 17.564501,567.86938 7.9375,515.81066 7.9375,461.5 c 0,-52.89671 9.206537,-103.62247 25.978516,-150.75586 z m 3.99414,312.19336 H 346.11133 L 608.25781,885.08398 C 561.12412,901.85596 510.39779,911.0625 457.5,911.0625 c -191.4035,0 -354.72318,-119.6049 -419.589844,-288.125 z m 317.853514,0 h 521.32617 c -46.0387,119.60785 -141.65045,214.53659 -261.7539,259.57227 z" />
+  </g>
+</svg>
