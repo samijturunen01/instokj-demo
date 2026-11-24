@@ -68,6 +68,9 @@
   h4 {
     font-family: var(--font-display);
     text-wrap: balance;
+    /* long Finnish compounds: soft hyphens (\u00ad) where they matter, never horizontal overflow */
+    overflow-wrap: anywhere;
+    hyphens: manual;
   }
   p {
     text-wrap: pretty;

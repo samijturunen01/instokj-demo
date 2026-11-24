@@ -52,7 +52,7 @@ export function PriceTable({ group, view, serviceLink }: { group: PriceGroup; vi
   const basis = view === 'quoted' ? group.quotedVat : view
   const basisLabel = basis === 'gross' ? `sis. alv ${VAT_RATE}` : 'alv 0 %'
   return (
-    <div id={group.id} className="border-t-[1.5px] border-ink pt-5">
+    <div id={`hinta-${group.id}`} className="border-t-[1.5px] border-ink pt-5">
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         <h3 className="display-m">{group.service}</h3>
         {group.rows.some((r) => r.amount) && <p className="label text-rust">{basisLabel}</p>}

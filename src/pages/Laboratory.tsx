@@ -31,7 +31,7 @@ export function Laboratory() {
               <SectionMark letter="L" sheet="01" dark />
               <p className="label text-mist">FINAS-akkreditoitu testauslaboratorio {company.accreditation.id}</p>
             </div>
-            <h1 className="display-xl mt-6 max-w-[14ch]">Betonilaboratorio Joensuussa</h1>
+            <h1 className="display-xl mt-6 max-w-[14ch]">{'Betoni\u00adlaboratorio'} Joensuussa</h1>
             <p className="lead mt-6 max-w-2xl text-paper/85">
               Insinööritoimisto KJ Oy:n laboratorio on FINAS-akkreditointipalvelun akkreditoima testauslaboratorio {company.accreditation.id}, akkreditointivaatimus{' '}
               {company.accreditation.standard}. Akkreditoitu testausmenetelmä takaa paikkansapitävän tuloksen betonin puristuslujuuden todentamiseen.
@@ -123,11 +123,11 @@ export function Laboratory() {
               intro="Tyypillisesti betonista määritetään puristuslujuus, mutta laitteistomme mahdollistaa myös muiden ominaisuuksien tutkimisen."
             />
             <p className="mt-6 text-[0.92rem] text-steel">
-              Hinnat alv 0 %. Arvonlisäverolliset hinnat: <Link to="/hinnasto#laboratorio" className="link text-ink">hinnasto</Link>.
+              Hinnat alv 0 %. Arvonlisäverolliset hinnat: <Link to="/hinnasto#hinta-laboratorio" className="link text-ink">hinnasto</Link>.
             </p>
           </div>
-          <div className="lg:col-span-8" data-reveal>
-            <div className="overflow-x-auto">
+          <div className="min-w-0 lg:col-span-8" data-reveal>
+            <div className="overflow-x-auto" role="region" aria-label="Testausmenetelmät ja hinnat" tabIndex={0}>
               <table className="w-full min-w-[34rem] border-collapse border-t-[1.5px] border-ink text-left">
                 <caption className="sr-only">Laboratorion testausmenetelmät, akkreditointi ja hinnat (alv 0 %)</caption>
                 <thead>
@@ -193,7 +193,7 @@ export function Laboratory() {
               sheet="04"
               kicker="Betonin elinkaari ja laitteisto"
               id="kalusto-title"
-              title="Uudisrakentamisesta korjausrakentamiseen"
+              title={'Uudis\u00adrakentamisesta korjaus\u00adrakentamiseen'}
               intro="Laboratoriomme toimii kaikissa betonin elinkaaren vaiheissa ja tuottaa luotettavia testaustuloksia uudis- ja korjausrakentamiskohteisiin."
             />
             <ul className="mt-10 grid gap-px bg-white/15 sm:grid-cols-3">

@@ -147,7 +147,7 @@ export function Services() {
             title="Kuntotarkastus vai kuntotutkimus?"
             intro="Asuntokaupan kuntotarkastus kertoo kunnosta rakenteita rikkomatta. Kun epäily vauriosta pitää selvittää, tarvitaan kuntotutkimus."
           />
-          <div className="mt-10 overflow-x-auto" data-reveal>
+          <div className="mt-10 overflow-x-auto" role="region" aria-label="Kuntotarkastuksen ja kuntotutkimuksen vertailu" tabIndex={0} data-reveal>
             <table className="w-full min-w-[40rem] border-collapse border-[1.5px] border-ink bg-sheet text-left">
               <caption className="sr-only">Kuntotarkastuksen ja kuntotutkimuksen erot</caption>
               <thead>

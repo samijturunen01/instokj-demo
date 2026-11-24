@@ -94,7 +94,7 @@ export function Pricing() {
       <section className="border-y border-ink/15 bg-paper-2 py-16 sm:py-20" aria-labelledby="labhinnat-title">
         <div className="wrap grid gap-12 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-8">
-            <SectionHead letter="H" sheet="03" kicker="Testauslaboratorio T359" id="labhinnat-title" title="Laboratoriohinnasto" />
+            <SectionHead letter="H" sheet="03" kicker="Testauslaboratorio T359" id="labhinnat-title" title={'Laboratorio\u00adhinnasto'} />
             <div className="mt-10">
               <PriceTable group={labPrices} view={view} serviceLink="/laboratorio" />
             </div>
