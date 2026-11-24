@@ -35,7 +35,6 @@ export const photoInfo: Record<PhotoKey, PhotoInfo> = {
   talvitie: { alt: 'Kuvituskuva: talvinen tie metsän keskellä ja omakotitalo tien päässä', authentic: false, focus: '50% 65%' },
   betonikaytava: { alt: 'Kuvituskuva: keskeneräisen rakennuksen betoninen käytävä ja harkkoseinät', authentic: false, focus: '50% 50%' },
   valu: { alt: 'Kuvituskuva: betonia valetaan perustuskuoppaan pumppuletkulla', authentic: false, focus: '50% 45%' },
-  valu2: { alt: 'Kuvituskuva: tuoretta betonia perustuskuopassa ja raudoitustankoja maassa', authentic: false, focus: '50% 40%' },
   kattotuolit: { alt: 'Kuvituskuva: rakenteilla olevan talon puiset kattotuolit ja yläpohja', authentic: false, focus: '50% 40%' },
   lattiakaivo: { alt: 'Kuvituskuva: märkätilan lattiakaivo laatoitetussa lattiassa', authentic: false, focus: '50% 50%' },
   puutalo: { alt: 'Kuvituskuva: punainen puutalo valkoisin ikkunanpielin', authentic: false, focus: '50% 60%' },

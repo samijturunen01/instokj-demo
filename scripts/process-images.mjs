@@ -29,7 +29,6 @@ const photos = {
   talvitie: { file: 'source-assets/stock/p10784638.jpg', widths: [640, 1024, 1600] },
   betonikaytava: { file: 'source-assets/stock/p29278168.jpg', widths: [640, 1024, 1600] },
   valu: { file: 'source-assets/stock/p26107201.jpg', widths: [640, 1024, 1600] },
-  valu2: { file: 'source-assets/stock/p26107204.jpg', widths: [640, 1024, 1600] },
   kattotuolit: { file: 'source-assets/stock/p8491084.jpg', widths: [640, 1024, 1600, 2400] },
   lattiakaivo: { file: 'source-assets/stock/p5768318.jpg', widths: [640, 1024, 1600] },
   puutalo: { file: 'source-assets/stock/p210538.jpg', widths: [640, 1024, 1600] },
